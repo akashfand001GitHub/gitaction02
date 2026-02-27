@@ -3,7 +3,7 @@ on:
     push:
         branches:
         - main
-        
+
 jobs:
     extract-data:
         runs-on: ubuntu-latest
@@ -12,7 +12,7 @@ jobs:
               uses: actions/checkout@v2
 
             - name: run extract.py
-              run: python extraxt.py
+              run: python extract.py
 
     transfrom-data-jobs:
         runs-on: ubuntu-latest
