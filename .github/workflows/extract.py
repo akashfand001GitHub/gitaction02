@@ -1,0 +1,1 @@
+print("Extract the MySQL database")
